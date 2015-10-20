@@ -1,5 +1,3 @@
-// Napisz program, który sprawdza czy wprowadzona z klawiatury liczba całkowita jest liczbą kwadratową.
-
 program zad6;
 
 var 
