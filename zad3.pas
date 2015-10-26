@@ -13,9 +13,9 @@ begin
     
     kw := 0;
 
-      if (a2 < b2) and (a2 < b2) then kw := a;
-      if (b2 < a2) and (b2 < c2) then kw := b;
-      if (c2 < a2) and (c2 < b2) then kw := c;
+      if (a2 <= b2) and (a2 <= c2) then kw := a;
+      if (b2 <= a2) and (b2 <= c2) then kw := b;
+      if (c2 <= a2) and (c2 <= b2) then kw := c;
 
   
     writeln('Najmniejszy kwadrat ma: ', kw);
